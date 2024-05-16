@@ -1,0 +1,38 @@
+#main-div{
+    min-height: calc(100vh-4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.paragraph{
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top: 2rem;
+    max-width: 50rem;
+}
+.images{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   width: 100vw;
+   max-width: 54rem;
+      
+}
+.image{
+    object-fit: cover;
+    height: 18rem;
+    margin: 0.5rem;
+    width: 14rem;
+}
+@media screen and (max-width:580px){
+    .image{
+        height: 30vw;
+    }
+}
